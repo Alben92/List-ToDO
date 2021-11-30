@@ -11,3 +11,148 @@ body {
 }
 
 /* CONTENT */
+.container{
+  background: #f3f5fc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#listWrapper{
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e7ecfb;
+  box-shadow: 0 0 30px rgb(211 220 248 / 30%);
+  padding: 30px;
+  width: 60%;
+  text-align: center;
+}
+
+.Title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #666f99;
+  padding: 10px 20px;
+}
+
+#form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  box-shadow: rgb(211 220 248 / 0%) 0px 0px 12px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #666f99;
+  padding: 10px;
+  background: #f3f5fc;
+}
+
+#List{
+  width: 80%;
+  border: none;
+  padding: 10px;
+  background: transparent;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #666f99;
+}
+#List:focus, #List:focus{
+  background: transparent !important;
+
+}
+#submit{
+  width: 10%;
+  border: none;
+  padding: 10px;
+  background: transparent;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #666f99;
+  animation: 1s ease;
+}
+#submit:hover{
+  color: #009B41;
+  animation: 1s ease;
+  transform: rotate(45deg);
+}
+
+.MostrarDatos{
+  background: transparent;
+  display: inline-flex;
+  width: 100%;
+}
+
+.MostrarDatos ul{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.MostrarDatos li{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  box-shadow: rgb(211 220 248 / 0%) 0px 0px 12px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #666f99;
+  padding: 10px;
+  background: #f3f5fc;
+  margin: 20px 0;
+}
+
+.MostrarDatos p{
+  width: 80%;
+  border: none;
+  padding: 5px 10px;
+  background: transparent;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #666f99;
+  margin: 0;
+  text-align: left;
+}
+
+.MostrarDatos button{
+  width: 10%;
+  border: none;
+  padding: 10px;
+  background: transparent;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #666f99;
+  animation: 1s ease;
+}
+
+.MostrarDatos button:hover{
+  color: #E8220D;
+  animation: 1s ease;
+  transform: rotate(90deg);
+
+}
+
+
+
+.error{
+    border: 2px solid #E8220D !important;
+}
+
+.backgroundTransparent{
+  background: transparent !important;
+}

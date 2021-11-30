@@ -16,7 +16,21 @@
 <body>
 
 	<div id="container" class="container">
-		<h1 class="Title"></h1>
+		<div id="listWrapper">
+			<h1 class="Title">To-Do List</h1>
+			<div class="Datos" id="Datos">
+				<form action="" method="POST" id="form" onsubmit="return false">
+					<input type="text" name="List" id="List" placeholder="Añade una tarea">
+					<input type="submit" value="+" id="submit" >
+				</form>
+			</div>
+
+			<div id="MostrarDatos" class="MostrarDatos">
+				<ul>
+					
+				</ul>
+			</div>
+		</div>
 	</div>
 
 	<script type="text/javascript" src="main.js"></script>
